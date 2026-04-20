@@ -73,6 +73,22 @@ Open `clear_flir_config.hlsl` in any text editor. It has six defines with commen
 
 DCS's FLIR rendering runs two post-processing shaders back to back: `ir.fx` converts the rendered scene into a grayscale thermal representation and does a 21×21 box blur, then `AdjustFLIR.fx` does a 2D Gaussian blur plus gain/level/mode passes to produce the final TGP image. Both shaders contribute to the stock "blobby" look. This mod reduces the blur width in both passes, and adds a soft highlight knee before the gain stage to prevent hot sprites from saturating to pure white when the blur is reduced.
 
+<img width="2085" height="1233" alt="image" src="https://github.com/user-attachments/assets/e07772ec-9aec-4368-bf4a-a45d55153efc" />
+<img width="2085" height="1233" alt="image" src="https://github.com/user-attachments/assets/67758061-79bb-4ec8-ad7b-00b7fcf26e61" />
+<img width="2085" height="1233" alt="image" src="https://github.com/user-attachments/assets/e9850ecc-3a24-4e26-a2c2-4d43bc2317fd" />
+<img width="2085" height="1233" alt="image" src="https://github.com/user-attachments/assets/a925dfb3-66fd-4c51-902f-7ef2baa94a08" />
+<img width="2085" height="1233" alt="image" src="https://github.com/user-attachments/assets/9ae601fc-7fa5-4443-920b-e05dd1d29ce8" />
+<img width="2085" height="1233" alt="image" src="https://github.com/user-attachments/assets/5fc1ecd9-ea3e-4f1e-b368-7c89a89daf8e" />
+<img width="2085" height="1233" alt="image" src="https://github.com/user-attachments/assets/9ede2852-cc1b-40ff-8404-6745737c24f4" />
+<img width="2085" height="1233" alt="image" src="https://github.com/user-attachments/assets/b632a9dd-e735-42fd-96a3-fa6d595b887e" />
+
+Narrow XR
+<img width="2085" height="1233" alt="image" src="https://github.com/user-attachments/assets/44122078-7a95-4951-a94e-a0ca0176cd83" />
+
+
+
+
+
 ## License
 
 MIT. Shader code includes excerpts from the stock DCS World shaders for the TGP FLIR pipeline (© Eagle Dynamics). Those fragments are included purely as the tuning target and are reproduced under fair use for interoperability.
