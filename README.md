@@ -4,7 +4,9 @@ A small DCS World shader mod that sharpens the F-16C Block 50's AN/AAQ-33 **Snip
 
 The way the mod makes the image look is not based on any science, real world data or facts. It's my attempt at making the ATP not as annoying to use in the game. 
 
-The mod touches only `Bazar/shaders/PostEffects/AdjustFLIR.fx` and `Bazar/shaders/PostEffects/ir.fx`. All tunable knobs live in a single shared header (`clear_flir_config.hlsl`), so you can tweak the look without reading shader code. This does not break integrity check.
+The mod touches only `Bazar/shaders/PostEffects/AdjustFLIR.fx` and `Bazar/shaders/PostEffects/ir.fx`. All tunable knobs live in a single shared header (`clear_flir_config.hlsl`), so you can tweak the look without reading shader code. 
+
+This breaks integrity check.
 
 ## What it changes
 
