@@ -2,6 +2,8 @@
 
 A small DCS World shader mod that sharpens the F-16C Block 50's AN/AAQ-33 **Sniper XR Advanced Targeting Pod** (ATP) FLIR image. Stock DCS renders it much blurrier than its real-world counterpart; this mod replaces two post-processing shaders with tuned versions that ease the blur and keep the heat-map / contrast behavior intact.
 
+The way the mod makes the image look is not based on any science, real world data or facts. It's my attempt at making the ATP not as annoying to use in the game. 
+
 The mod touches only `Bazar/shaders/PostEffects/AdjustFLIR.fx` and `Bazar/shaders/PostEffects/ir.fx`. All tunable knobs live in a single shared header (`clear_flir_config.hlsl`), so you can tweak the look without reading shader code. This does not break integrity check.
 
 ## What it changes
